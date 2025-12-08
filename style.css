@@ -1,0 +1,185 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background: black;
+
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  color:white;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+
+
+.order-btn {
+  background: #facc15;
+  color: #000;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.franchise-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+  background-color: #facc15
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+
+#first{
+    color: aliceblue;
+    margin: 60px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Stack Sans Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;        
+    margin-top: 30px;
+}
+
+.flex-box img{
+    width: 300px;     
+    border-radius: 10px;
+}
+button{
+    padding: 12px 30px;
+    background-color:white;
+    color:  black;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Stack Sans Text", sans-serif;
+    display: block;
+    margin: 0 auto;   
+}
+
+
+
